@@ -1,16 +1,50 @@
-# React + Vite
+# CreaTuLanding1Mendoza
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado en React como parte de las entregas del curso de React.
 
-Currently, two official plugins are available:
+## Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Este proyecto consiste en una tienda online básica desarrollada con React. En esta etapa se implementó la navegación entre distintas vistas utilizando React Router, permitiendo recorrer el catálogo, filtrar productos por categoría y acceder al detalle de cada producto.
 
-## React Compiler
+## Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Barra de navegación con categorías.
+- Catálogo de productos.
+- Filtrado por categorías mediante parámetros en la URL.
+- Vista de detalle para cada producto.
+- Componente contador de unidades (ItemCount).
+- Navegación sin recarga de página mediante React Router.
+- Ruta de error 404 para páginas inexistentes.
+- Simulación de consulta de datos mediante Promises.
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- Vite
+- React Router DOM
+- JavaScript
+- CSS
+
+## Instalación
+
+Clonar el repositorio:
+
+```bash
+git clone https://github.com/Mr-Isac/CreaTuLanding1Mendoza.git
+```
+
+Instalar dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar el proyecto:
+
+```bash
+npm run dev
+```
+
+## Autor
+
+Isaac Mendoza
